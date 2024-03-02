@@ -1,0 +1,32 @@
+---
+import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
+import Colors from "../components/Colors.astro";
+import Asciiart from "../components/Asciiart.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} >
+    <title>justin busker</title>
+  </head>
+  
+  <body class="">
+      <Navigation />
+      <h1 class="text-gray-500">~</h1>
+      <div class ="flex flex-row pt-2">
+      <Asciiart />
+      <h1 class="text-gray-500" >My Astro
+      </h1>
+      </div>
+    <p class="text-4xl">hello </p>
+
+    <Colors />
+  </body>
+</html>
+
+<style>
+</style>

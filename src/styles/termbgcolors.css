@@ -1,0 +1,64 @@
+/* Terminal Colors for background */
+.dark_black{
+    background-color: #3c3836;
+}
+
+.dark_red{
+    background-color: #cc241d;
+}
+
+.dark_green{
+    background-color: #98971a;
+}
+
+.dark_yellow{
+    background-color: #d79921;
+}
+
+.dark_blue{
+    background-color: #458588;
+}
+
+.dark_purple{
+    background-color: #b16286;
+}
+
+.dark_altgreen{
+    background-color: #689d6a;
+}
+
+.dark_gray{
+    background-color: #a89984;
+}
+
+.black{
+    background-color: #928374;
+}
+
+.red{
+    background-color: #fb4934;
+}
+
+.green{
+    background-color: #b8bb26;
+}
+
+.yellow{
+    background-color: #fabd2f;
+}
+
+.blue{
+    background-color: #83a598;
+}
+
+.purple{
+    background-color: #d3869b; 
+}
+
+.altgreen{
+    background-color: #8ec07c;
+}
+
+.gray{
+    background-color: #fbf1c7;
+}
