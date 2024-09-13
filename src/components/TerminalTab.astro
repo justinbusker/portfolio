@@ -1,0 +1,13 @@
+---
+const { title, link=""} = Astro.props;
+---
+<a href={`/${link}`} class="flex flex-row ">
+            <div class="p-[2vw] bg-[#595959] md:p-[10px]"></div>
+            <div class="p-[2vw] bg-[#8B8B8B] md:p-[10px]"></div>
+            <div class="p-[2vw] bg-[#BCBCBC] md:p-[10px]"></div>
+			<p class="p-x-[1vw] bg-[#EEEEEE]"><b><i>{title}</i></b></p>
+            <div class="p-[2vw] bg-[#BCBCBC] md:p-[10px]"></div>
+            <div class="p-[2vw] bg-[#8B8B8B] md:p-[10px]"></div>
+            <div class="p-[2vw] bg-[#595959] md:p-[10px]"></div>
+        </a>
+
